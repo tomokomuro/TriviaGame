@@ -1,0 +1,117 @@
+<!doctype <!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Trivial Game</title>
+    <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+</head>
+<body>
+<div class="container">
+    <h1>Totally Trivial Trivia!</h1>
+
+    <p id="info">How much do you know about cats??</p>
+
+
+    <div class="timerDiv">
+            <h3 id="timer">Remaining Timer 30 seconds.</h3>
+        </div>
+
+
+    
+
+    <div class="questions">
+        Question 1: 
+            <h2>A cat has how many whiskers, on average? </h2>
+            <div class="radios">
+                <input type="radio" name="q1" value="1"> 8
+                <input type="radio" name="q1" value="0"> 16
+                <input type="radio" name="q1" value="0"> 24 
+            </div>
+
+        Question 2: 
+            <h2>Do cats have fewer teeth than dogs have, or more? </h2>
+            <div class="radios">
+                <input type="radio" name="q2" value="1"> Fewer
+                <input type="radio" name="q2" value="0"> More
+                <input type="radio" name="q2" value="0"> Same
+            </div>
+
+        Question 3: 
+            <h2>Which brain is the cat’s brain most similar to?</h2>
+            <div class="radios">
+                <input type="radio" name="q3" value="0"> Dog's
+                <input type="radio" name="q3" value="0"> Pig's
+                <input type="radio" name="q3" value="1"> Human's
+            </div>
+        Question 4: 
+            <h2>Outdoor-only cats live, on average, about:</h2>
+            <div class="radios">
+                <input type="radio" name="q4" value="1"> 3 - 5 years
+                <input type="radio" name="q4" value="0"> 7 - 10 years
+                <input type="radio" name="q4" value="0"> 8 - 12 years
+            </div>
+        Question 5: 
+        <h2>A term for a group of cats is:</h2>
+            <div class="radios">
+                <input type="radio" name="q5" value="0"> Covey
+                <input type="radio" name="q5" value="1"> Clowder
+                <input type="radio" name="q5" value="0"> Clutch
+            </div>
+        Question 6:
+            <h2>A term for a group of kittens is:</h2>
+            <div class="radios">
+                <input type="radio" name="q6" value="0"> Nook
+                <input type="radio" name="q6" value="1"> Kindle
+                <input type="radio" name="q6" value="0"> Kaggle
+            </div>
+        Question 7:
+            <h2>What’s it called when a cat rubs the side of her head on you or on furniture?</h2>
+            <div class="radios">
+                <input type="radio" name="q7" value="0"> Tagging
+                <input type="radio" name="q7" value="1"> Bunting
+                <input type="radio" name="q7" value="0"> Beaning
+            </div>
+        Question 8:
+            <h2>Cats can’t taste this:</h2>
+            <div class="radios">
+                <input type="radio" name="q8" value="1"> Sweet
+                <input type="radio" name="q8" value="0"> Bitter
+                <input type="radio" name="q8" value="0"> Sour
+            </div>
+        Question 9:
+        <h2>What’s the total number of claws that most house cats have? </h2>
+            <div class="radios">
+                <input type="radio" name="q9" value="0"> 9
+                <input type="radio" name="q9" value="0"> 12
+                <input type="radio" name="q9" value="1"> 18
+            </div>
+        Question 10:
+        <h2>9. What is the scientific name for “Fear of Cats?</h2>
+            <div class="radios">
+                <input type="radio" name="q10" value="0"> Felineophobia
+                <input type="radio" name="q10" value="1"> Ailurophobia
+                <input type="radio" name="q10" value="0"> Doesn't Exist
+            </div>
+
+
+        <button id="submit"> Check Results </button>
+    </div>
+
+    <div class="results">
+      <h2>All Done!</h2>
+       <p id="correct"> </p>
+       <p id="incorrect"> </p>
+       <p id="unanswered"> </p>
+
+       <button id="restart">Restart Quiz </button>
+    </div>
+  
+
+
+    <script src="assets/javascript/app.js"> </script>
+</body>
+</html>

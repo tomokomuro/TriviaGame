@@ -1,0 +1,109 @@
+body {
+    background-image: url("../images/pattern.gif");
+}
+
+.container{
+    background-color: beige;
+    width: 80%;
+    padding: 20px;
+    margin: 0px auto;
+
+}
+
+h1{
+    font-size: 40px;
+    color: midnightblue;
+    font-family: 'Times New Roman', Times, serif;
+    margin-bottom: 15px;
+    text-align: center;
+
+}
+
+p{
+    font-size: 18px;
+    color: darkblue;
+}
+
+.questions, .results{
+    /* background-color: red; */
+    border: 1px solid black;
+    padding: 20px;
+    margin: 10px auto;
+    clear: both;
+    width: 80%;
+    position: relative;
+}
+
+.results{
+    display: none;
+    text-align:center;
+
+}
+
+.questions{
+    /* display: none; */
+}
+
+h2 {
+    color: purple;
+    font-size: 20px;
+}
+.radios{
+    margin: 5px;
+}
+
+#submit {
+    width: 150px;
+    height: 40px;
+    background-color: cornflowerblue;
+    color: black;
+    font-size: 20px;
+    margin: 5px;
+    float: right;
+    display: block;
+    position: absolute;
+    right: 10px;
+    bottom: 1px;
+
+
+}
+#submit:hover{
+    background-color: yellow;
+    color: blue;
+    cursor: pointer;
+}
+
+#timer{
+    font-size: 20px;
+    color:  red;
+    text-align: center;
+    margin-top: 20px;
+
+}
+
+#restart {
+    width: 150px;
+    height: 40px;
+    background-color: cornflowerblue;
+    color: yellow;
+    font-size: 20px;
+    margin: 5px;
+    display: block;
+    right: 40%;
+    bottom: -50px;
+    text-align: center;
+    
+
+
+}
+#restart:hover{
+    background-color: yellow;
+    color: blue;
+    cursor: pointer;
+}
+#info {
+    text-align: center;
+    margin-top: 10px;
+    font-size: 25px;
+    margin-bottom: 10px;
+}
